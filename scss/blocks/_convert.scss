@@ -1,0 +1,46 @@
+.convert {
+  padding: 80px 0 0;
+
+  &__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__btn {
+    margin: 0 auto 30px;
+  }
+
+  &__result {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__text-one {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+  }
+
+  &__text-main {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    margin: 0;
+  }
+
+}

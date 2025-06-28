@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!--choices-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Currencies</title>
+</head>
+
+<body>
+  <main>
+    <section class="convert">
+      <div class="container">
+        <form class="convert__form">
+          <div class="convert__wrapper">
+            <div class="custom-input">
+              <label class="custom-input__label" for="apartment-number">Amount</label>
+              <input class="custom-input__field" type="text" name="value-convert" id="value-convert"
+                placeholder="Type amount to convert">
+            </div>
+            <div class="custom-input">
+              <label class="custom-input__label" for="baseCurrency">Convert from</label>
+              <select class="custom-select" id="baseCurrency" name="baseCurrency">
+              </select>
+            </div>
+            <div class="custom-input">
+              <label class="custom-input__label" for="baseCurrency">Convert to</label>
+              <select class="custom-select" id="targetCurrency" name="targetCurrency">
+              </select>
+            </div>
+          </div>
+           <button class="btn convert__btn" type="submit">Convert</button>
+        </form>
+        <div class="convert__result">          
+        </div>
+      </div>
+    </section>
+    <script type="module" src="js/index.js"></script>
+  </main>
+</body>
+
+</html>
