@@ -11,7 +11,23 @@
   &__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 40px;
+    position: relative;
+  }
+
+  &__reverse-button {
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    right: 410px;
+    top: 20px;
+    z-index: 3;
+    cursor: pointer;
+
   }
 
   &__bottom {

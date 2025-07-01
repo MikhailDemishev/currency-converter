@@ -17,6 +17,11 @@
       <div class="container">
         <form class="convert__form">
           <div class="convert__wrapper">
+            <button class="convert__reverse-button">
+              <svg class="convert__reverse-icon" width="66" height="16" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#icon-reverse"></use>
+              </svg>
+            </button>
             <div class="custom-input">
               <label class="custom-input__label" for="apartment-number">Amount</label>
               <input class="custom-input__field" type="text" name="value-convert" id="value-convert"
@@ -33,9 +38,9 @@
               </select>
             </div>
           </div>
-           <button class="btn convert__btn" type="submit">Convert</button>
+          <button class="btn convert__btn" type="submit">Convert</button>
         </form>
-        <div class="convert__result">          
+        <div class="convert__result">
         </div>
       </div>
     </section>
